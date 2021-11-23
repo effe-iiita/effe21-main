@@ -3241,6 +3241,12 @@ html.fp-enabled {
   display: flex;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: center;
+  width: 12rem;
+  height: 2rem;
+  background: #62B9C7;
+  border-radius: 5px;
+  font-size: 2.5rem;
   min-height: 44px;
   border: none;
   padding: 0 0 0 2px;
@@ -5338,6 +5344,17 @@ html.fp-enabled {
   visibility: visible;
   background-color: #0e1925;
 }
+
+.landing-div{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    background: #00000024;
+    height: 50rem;
+    padding: 2.5rem;
+    backdrop-filter: saturate(180%) blur(5px);
+}
 .home-hero,
 .home-logo {
   z-index: 1;
@@ -5349,7 +5366,8 @@ html.fp-enabled {
   -ms-flex-align: center;
   align-items: center;
   width: 80%;
-  height: 100%;
+  height: 100vh;
+  
 }
 @media (max-width: 900px) {
   .home-hero {
@@ -5405,6 +5423,8 @@ html.fp-enabled {
 .home-hero__slogan {
   position: relative;
   margin-bottom: 40px;
+  margin-top: -8rem;
+  letter-spacing: 8px;
 }
 .bg-video,
 .hsection__home-img {
@@ -6019,7 +6039,7 @@ html.fp-enabled {
 #fp-nav ul li {
   width: 100%;
   height: 16px;
-  margin: 20px 0;
+  margin: 35px 0;
 }
 #fp-nav ul li a {
   position: relative;
@@ -6031,18 +6051,20 @@ html.fp-enabled {
   bottom: 0;
   display: block;
   width: 36px;
-  height: 1px;
+  height: 35px;
   background: rgba(255, 255, 255, 0.5);
   content: "";
   transition: width 0.8s 0.3s cubic-bezier(1, 0, 0, 1),
     background-color 0.8s 0.3s cubic-bezier(1, 0, 0, 1);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin-left: -2.5rem;
 }
 #fp-nav ul li a.active {
   border-radius: 0 !important;
 }
 #fp-nav ul li a.active::after {
-  width: 100%;
-  background: #fff;
+  width: 35px;
+  background: rgba(9, 133, 139, 1);
 }
 #fp-nav ul li a span {
   position: absolute;
@@ -6054,14 +6076,16 @@ html.fp-enabled {
   height: 1px;
   margin: 0;
   border-radius: 0;
-  background: #f03694;
+  background: none;
   transition: width 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 #fp-nav ul li a.active span,
 #fp-nav ul li:hover a span,
 #fp-nav ul li:hover a.active span {
   width: 36px;
-  height: 1px;
+  height: 0px;
+  /* height: 1px; */
+
   margin: 0;
 }
 #fp-nav ul li a.active span {
