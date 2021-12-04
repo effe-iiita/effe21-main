@@ -1156,8 +1156,8 @@ cite {
   font-family: "Sharp Grotesk Medium 15", HelveticaNeue-Light,
     "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
     sans-serif;
-  font-weight: 700;
-  font-weight: 700;
+  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   font-stretch: normal;
   letter-spacing: 1px;
@@ -1166,8 +1166,8 @@ body {
   background-color: #fff;
   overflow-x: hidden;
   font-feature-settings: "kern" 1, "liga" 1, "frac" 1, "lnum" 1;
-  font-size: 40px;
-  font-size: 4rem;
+  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 1.5;
   color: #5a6977;
 }
@@ -8680,16 +8680,16 @@ input[type="search"]::-webkit-search-results-decoration {
   max-width: 600px;
 }
 .work__hero-title {
-  font-size: 8vw;
+  font-size: 9vw;
 }
 @media (max-width: 711.11111px) {
   .work__hero-title {
-    font-size: 47px;
+    font-size: 64px;
   }
 }
 @media (min-width: 1333.33333px) {
   .work__hero-title {
-    font-size: 80px;
+    font-size: 120px;
   }
 }
 .work__hero-title > div {
@@ -8698,21 +8698,21 @@ input[type="search"]::-webkit-search-results-decoration {
 @media (max-width: 900px) {
   .work__hero-title {
     color: #fff;
-    font-size: 10vw;
+    font-size: 15vw;
   }
 }
 @media (max-width: 900px) and (max-width: 426.66667px) {
   .work__hero-title {
-    font-size: 50px;
+    font-size: 64px;
   }
 }
 @media (max-width: 900px) and (min-width: 800px) {
   .work__hero-title {
-    font-size: 100px;
+    font-size: 120px;
   }
 }
 .work__hero-subtitle {
-  font-size: 20px;
+  font-size: 40px;
   font-size: 4rem;
   color: #1e2d3c;
   margin-top: 40px;
@@ -8800,8 +8800,8 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 .work__item {
   position: relative;
-  width: 25%;
-  height: 30vw;
+  width: 50%;
+  height: 50vw;
   min-height: 375px;
   max-height: 720px;
   padding: 10px;
@@ -8821,14 +8821,6 @@ input[type="search"]::-webkit-search-results-decoration {
   transition: opacity 1s ease-in-out;
 }
 .work__item.work__item-col-2 {
-  -ms-transform: none;
-  transform: none;
-}
-.work__item.work__item-col-3 {
-  -ms-transform: none;
-  transform: none;
-}
-.work__item.work__item-col-4 {
   -ms-transform: none;
   transform: none;
 }
@@ -8894,26 +8886,26 @@ input[type="search"]::-webkit-search-results-decoration {
 .work__item-client {
   margin: 0;
   color: #fff;
-  font-size: 20px;
-  font-size: 2rem;
+  font-size: 40px;
+  font-size: 4rem;
 }
 .work__item-client > div {
   overflow: hidden;
 }
 @media (max-width: 1024px) {
   .work__item-content {
-    padding: 10px 5%;
+    padding: 40px 10%;
   }
   .work__item-client {
-    font-size: 15px;
-    font-size: 1.5rem;
+    font-size: 28px;
+    font-size: 2.8rem;
   }
 }
 .work__item-title {
   margin: 0 0 56px;
   color: #fff;
-  font-size: 40px;
-  font-size: 4rem;
+  font-size: 80px;
+  font-size: 8rem;
 }
 .work__item-title > div {
   overflow: hidden;
@@ -8921,8 +8913,8 @@ input[type="search"]::-webkit-search-results-decoration {
 @media (max-width: 1024px) {
   .work__item-title {
     margin-bottom: 24px;
-    font-size: 10px;
-    font-size: 1rem;
+    font-size: 56px;
+    font-size: 5.6rem;
   }
 }
 .work__item-link {
