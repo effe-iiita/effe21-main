@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Nunito:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+  background-color: #ffefc7;
+}
+.logo {
+  z-index: 100;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 80px;
+  cursor: pointer;
+}
+.events {
+  width: 100vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #c6593a;
+}
+
+.events__hero {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+  .events__hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100vh;
+  }
+}
+
+.events__hero__detail {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media screen and (max-width: 650px) {
+  .events__hero__detail {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.events__hero__detail__wrapper {
+  width: 95%;
+  padding: 0 3rem;
+}
+
+@media screen and (max-width: 650px) {
+  .events__hero__detail__wrapper {
+    width: 100%;
+  }
+}
+
+.events__hero__detail__heading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #c5583b;
+  position: relative;
+}
+
+.events__hero__detail__heading span {
+  font-size: 1.5rem;
+  position: absolute;
+  top: -10px;
+  left: 3px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.events__hero__detail__body {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 1px;
+  color: #0a0a0a;
+}
+
+.events__hero__detail__body p {
+  margin: 10px 0;
+}
+
+.events__hero__image {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+  .events__hero__image {
+    display: none;
+  }
+}
+
+.events__hero__image img {
+  width: 100%;
+}
+
+.events__hero__image__overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #c5593bad;
+  -webkit-transform-origin: left;
+  transform-origin: left;
+}
+
+.events__carousel {
+  height: 100vh;
+}
+
+.events__list {
+  width: 90%;
+  height: 80px;
+  margin: 100px auto 20px auto;
+  font-size: 1.6rem;
+  background-color: #c5583b;
+}
+
+@media screen and (max-width: 900px) {
+  .events__list {
+    width: 95%;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .events__list {
+    height: 180px;
+  }
+}
+
+.events__list__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1.3rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .events__list__items {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+.events__list__item {
+  margin: 0 10px;
+  padding: 15px 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .events__list__item {
+    padding: 0 20px;
+  }
+}
+
+.events__cards__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.events__card {
+  background-color: #fed792;
+  min-width: 280px;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 40px 15px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  -ms-grid-rows: 6fr 1fr;
+  grid-template-rows: 6fr 1fr;
+  grid-row-gap: 5px;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+@media screen and (max-width: 650px) {
+  .events__card {
+    height: 400px;
+  }
+}
+
+.events__card img {
+  width: 350px;
+}
+
+@media screen and (max-width: 650px) {
+  .events__card img {
+    max-width: 250px;
+  }
+}
+
+.events__card__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.active {
+  background-color: #fed792;
+  color: #5a1300;
+  border-radius: 2px;
+}
+
+.none {
+  display: none;
+}
+
+.animate {
+  -webkit-animation: animate 0.8s ease;
+  animation: animate 0.8s ease;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
