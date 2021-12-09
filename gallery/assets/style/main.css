@@ -234,9 +234,13 @@ canvas {
 }
 
 #header img.twitter {
-  right: 33px;
-}
+  left: 2rem;
 
+}
+/* .twitter{
+  height: 1rem;
+  width: 0.8rem;
+} */
 #header img.github {
   right: 100px;
 }
