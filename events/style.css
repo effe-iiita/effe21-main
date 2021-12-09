@@ -18,7 +18,7 @@ body {
   position: absolute;
   top: 5%;
   left: 5%;
-  width: 80px;
+  width: 6vw;
   cursor: pointer;
 }
 .events {
@@ -31,7 +31,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  color: #c6593a;
+  color: rgb(85 62 54);
 }
 
 .events__hero {
@@ -93,7 +93,7 @@ body {
 .events__hero__detail__heading {
   font-size: 3rem;
   margin-bottom: 2rem;
-  color: #c5583b;
+  color: rgb(85 62 54);
   position: relative;
 }
 
@@ -147,7 +147,7 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: #c5593bad;
+  background-color: rgb(85 62 54);
   -webkit-transform-origin: left;
   transform-origin: left;
 }
@@ -161,7 +161,7 @@ body {
   height: 80px;
   margin: 100px auto 20px auto;
   font-size: 1.6rem;
-  background-color: #c5583b;
+  background-color: rgb(85 62 54);
 }
 
 @media screen and (max-width: 900px) {
@@ -169,11 +169,24 @@ body {
     width: 95%;
     height: 120px;
   }
+  .events__hero{
+    margin-top:4rem;
+  }
+  .logo{
+    width: 10vw;
+  }
+
 }
 
 @media screen and (max-width: 650px) {
   .events__list {
     height: 180px;
+  }
+  .logo{
+    display:none;
+  }
+  .events__hero{
+    margin-top:2rem;
   }
 }
 
@@ -215,6 +228,7 @@ body {
   .events__list__item {
     padding: 0 20px;
   }
+
 }
 
 .events__cards__container {
@@ -259,6 +273,14 @@ body {
 @media screen and (max-width: 650px) {
   .events__card img {
     max-width: 250px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .events__card img {
+    max-width: 250px;
+  }
+  .events__card__content{
+    flex-direction: column;
   }
 }
 
