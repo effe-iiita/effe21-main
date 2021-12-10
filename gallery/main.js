@@ -6636,7 +6636,7 @@
           },
           sleigher3000: {
             id: "sleigher3000",
-            title: "sleigher3000",
+            title: "Akash Gupta",
             images: ["sleigher3000.jpg"],
             color: !1,
             codeColor: [],
@@ -6789,7 +6789,7 @@
           },
           starwars_fighter3: {
             id: "starwars_fighter3",
-            title: "STARWARS FIGHTER",
+            title: "Zephyrtone",
             images: ["fighter3.jpg"],
             color: !1,
             codeColor: [],
