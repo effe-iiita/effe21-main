@@ -9134,3 +9134,6 @@ input[type="search"]::-webkit-search-results-decoration {
   margin: 0 auto;
 }
 /*# sourceMappingURL=main.min.css.map */
+.munmore{
+  display: none;
+}
