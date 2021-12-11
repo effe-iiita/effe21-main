@@ -661,6 +661,15 @@ var PGC_SGB_LIGHTBOX = {"lightboxPreset":"","postType":"page","lightboxSettigs":
 <script type='text/javascript' src='wp-content/themes/boysandgirls2018/assets/dist/js/main.min.js' id='main.min.js-js'></script>
 <!-- <script type='text/javascript' src='wp-includes/js/wp-embed.min.js' id='wp-embed-js'></script> -->
 
+<script>
+	// remove the anchor tag with "Unlicensed fullPage.js Extension" text in it
+	let anchor = document.querySelectorAll("a[href='http://alvarotrigo.com/fullPage/extensions/']");
+	let parent = anchor[0].parentElement;
+	console.log(anchor);
+	console.log(parent);
+	parent.remove();
+	
+</script>
 		</body>
 
 <!-- Mirrored from boysandgirls.ie/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Nov 2021 04:34:42 GMT -->
