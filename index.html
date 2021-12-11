@@ -663,11 +663,13 @@ var PGC_SGB_LIGHTBOX = {"lightboxPreset":"","postType":"page","lightboxSettigs":
 
 <script>
 	// remove the anchor tag with "Unlicensed fullPage.js Extension" text in it
-	let anchor = document.querySelectorAll("a[href='http://alvarotrigo.com/fullPage/extensions/']");
-	let parent = anchor[0].parentElement;
-	console.log(anchor);
-	console.log(parent);
-	parent.remove();
+	$( document ).ready(function() {
+		let anchor = document.querySelectorAll("a[href='http://alvarotrigo.com/fullPage/extensions/']");
+		let parent = anchor[0].parentElement;
+		console.log(anchor);
+		console.log(parent);
+		parent.remove();
+	});
 	
 </script>
 		</body>
