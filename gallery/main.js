@@ -6423,7 +6423,7 @@
           },
           ddd: {
             id: "ddd",
-            title: "DDD 2018",
+            title: "",
             images: ["ddd-2018.jpg"],
             color: !1,
             codeColor: [],
@@ -6517,7 +6517,7 @@
           },
           night_eyes: {
             id: "night_eyes",
-            title: "NIGHT EYE",
+            title: "",
             images: ["night-eye.jpg"],
             color: !1,
             codeColor: [],
