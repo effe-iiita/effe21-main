@@ -5420,6 +5420,11 @@ html.fp-enabled {
     font-size: 8rem;
   }
 }
+@media (max-width: 450px){
+  .home-hero__slogan{
+    font-size: 17vw;
+  }
+}
 .home-hero__text-main {
   position: relative;
 }
